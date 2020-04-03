@@ -11,3 +11,23 @@ h1 {
   text-align: center;
   margin: 40px 0;
 }
+
+.container {
+  padding: 0 24px;
+}
+
+.name-input {
+  width: 100%;
+}
+
+.radio-group {
+  margin: 24px;
+  display: block;
+  &__item {
+    margin-right: 24px;
+  }
+}
+
+.button {
+  text-align: center;
+}
