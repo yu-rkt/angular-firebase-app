@@ -1,5 +1,5 @@
 export interface Pet {
-  avatorURL: string;
+  avatarURL: string;
   name: string;
   level: number;
   exp: number;

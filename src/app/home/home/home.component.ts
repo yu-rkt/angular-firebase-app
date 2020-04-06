@@ -11,7 +11,7 @@ export class HomeComponent implements OnInit {
     name: 'テストペット',
     level: 4,
     exp: 200,
-    avatorURL: '/assets/images/pet-1.png',
+    avatarURL: '/assets/images/pet-1.png',
   };
 
   constructor() {}

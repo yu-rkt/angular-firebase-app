@@ -1,10 +1,13 @@
 <div class="pet">
-  <figure class="pet__avator">
-    <img [src]="pet" alt="" />
+  <figure class="pet__avatar">
+    <img [src]="pet.avatarURL" alt="" />
   </figure>
   <div class="pet__body">
     <p class="pet__name">{{ pet.name }}</p>
-    <p class="pet__exp">{{ pet.exp }} / {{ maxExp }}</p>
-    <mat-progress-bar mode="determinate" value="40"></mat-progress-bar>
+    <p class="pet__exp">経験値{{ pet.exp }} / {{ maxExp }}</p>
+    <mat-progress-bar
+      mode="determinate"
+      [value]="getExpPercentage()"
+    ></mat-progress-bar>
   </div>
 </div>
