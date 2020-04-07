@@ -24,6 +24,7 @@ export class AuthService {
       this.snackBar.open('ようこそ', null, {
         duration: 2000,
       });
+      this.router.navigateByUrl('/create');
     });
   }
 
