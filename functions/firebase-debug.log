@@ -1,0 +1,18 @@
+[debug] [2020-04-09T01:55:49.583Z] ----------------------------------------------------------------------
+[debug] [2020-04-09T01:55:49.584Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy --only functions:gitHook
+[debug] [2020-04-09T01:55:49.584Z] CLI Version:   8.0.1
+[debug] [2020-04-09T01:55:49.585Z] Platform:      darwin
+[debug] [2020-04-09T01:55:49.585Z] Node Version:  v12.13.0
+[debug] [2020-04-09T01:55:49.585Z] Time:          Thu Apr 09 2020 10:55:49 GMT+0900 (GMT+09:00)
+[debug] [2020-04-09T01:55:49.586Z] ----------------------------------------------------------------------
+[debug] [2020-04-09T01:55:49.586Z] 
+[debug] [2020-04-09T01:55:49.595Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-04-09T01:55:49.596Z] > authorizing via signed-in user
+[debug] [2020-04-09T01:55:49.596Z] [iam] checking project gitpet-aa103 for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]
+[debug] [2020-04-09T01:55:49.599Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-04-09T01:55:49.599Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-04-09T01:55:49.769Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 09 Apr 2020 01:55:49 GMT","server":"scaffolding on HTTPServer2","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"quic=\":443\"; ma=2592000; v=\"46,43\",h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-04-09T01:55:49.784Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/gitpet-aa103:testIamPermissions  
+ {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]}
+[debug] [2020-04-09T01:55:50.727Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 09 Apr 2020 01:55:50 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=678","alt-svc":"quic=\":443\"; ma=2592000; v=\"46,43\",h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000","accept-ranges":"none","transfer-encoding":"chunked"}
